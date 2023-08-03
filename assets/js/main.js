@@ -110,7 +110,30 @@
     window.addEventListener('load', toggleBacktotop)
     onscroll(document, toggleBacktotop)
   }
-
+let backtotopWhatsapp = select ('.back-to-top-whatsapp')
+if(backtotopWhatsapp){
+  const toggleBacktotopWhatsapp = () => {
+    if (window.scrollY > 100) {
+      backtotopWhatsapp.classList.add('whatsappActive')
+    } else {
+      backtotopWhatsapp.classList.remove('whatsappActive')
+    }
+  }
+  window.addEventListener('load', toggleBacktotopWhatsapp)
+  onscroll(document, toggleBacktotopWhatsapp)
+}
+let backtotopMail = select ('.back-to-top-mail')
+if(backtotopMail){
+  const toggleBacktotopMail = () => {
+    if (window.scrollY > 100) {
+      backtotopMail.classList.add('mailActive')
+    } else {
+      backtotopMail.classList.remove('mailActive')
+    }
+  }
+  window.addEventListener('load', toggleBacktotopMail)
+  onscroll(document, toggleBacktotopMail)
+}
   /**
    * Mobile nav toggle
    */
