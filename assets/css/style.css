@@ -12,7 +12,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #383e42;
-  color: #0c030753;
+  background-image: url("../img/5053309.jpg");
+    color: #0c030753;
 }
 
 a {
@@ -718,7 +719,7 @@ section {
   padding: 30px;
   position: relative;
   overflow: hidden;
-  background: #fff;
+  background: #d5e9f2;
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
