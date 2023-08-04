@@ -1343,7 +1343,11 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #263f49;
+  background-color: #060606;
+  background-image: url("../img/map-dotted.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
