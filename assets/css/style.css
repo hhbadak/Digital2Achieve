@@ -13,7 +13,7 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: #383e42;
   background-image: url("../img/background.jpg");
-    color: #0c030753;
+  color: #0c030753;
 }
 
 a {
@@ -550,7 +550,7 @@ section {
   font-weight: bold;
   position: relative;
   margin-bottom: 30px;
-  color: #2f4d5a;
+  color: #8c9396;
   z-index: 2;
 }
 
@@ -562,7 +562,7 @@ section {
   transform: translate(-50%, -50%);
   width: 122px;
   height: 66px;
-  background: url(../img/section-title-bg.png) no-repeat;
+  background: url(../img/section-title-bg-fire.png) no-repeat;
   z-index: -1;
 }
 
@@ -1583,7 +1583,13 @@ section {
 .containerr #prev {
   left: 0;
 }
-.inner-page p{
+
+.inner-page p {
   font-size: 10pt;
   font-family: 'Courier New', Courier, monospace;
+}
+
+.quote-text-color {
+  background: rgb(229, 92, 34);
+  background: linear-gradient(297deg, rgba(229, 92, 34, 1) 5%, rgba(255, 188, 51, 1) 15%, rgba(254, 252, 63, 1) 25%, rgba(255, 255, 178, 1) 40%, rgba(254, 252, 63, 1) 55%, rgba(255, 188, 51, 1) 75%, rgba(229, 92, 34, 1) 90%);
 }
