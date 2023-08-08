@@ -13,7 +13,7 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: #383e42;
   background-image: url("../img/background.jpg");
-  color: #0c030753;
+  color: rgb(216 215 205);
 }
 
 a {
@@ -136,8 +136,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgb(3, 1, 43);
-  background: linear-gradient(297deg, rgba(3, 1, 43, 1) 22%, rgba(1, 4, 43, 0.9557072829131653) 34%, rgba(3, 1, 43, 1) 50%, rgba(9, 9, 121, 1) 83%, rgba(9, 9, 117, 1) 86%, rgba(2, 0, 36, 1) 94%, rgba(0, 212, 255, 1) 100%);
+  background: rgb(92, 89, 225);
   padding: 12px;
 }
 
@@ -719,7 +718,7 @@ section {
   padding: 30px;
   position: relative;
   overflow: hidden;
-  background: #d5e9f2;
+  background: rgba(30, 47, 66);
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -729,7 +728,7 @@ section {
 .services .icon-box::before {
   content: "";
   position: absolute;
-  background: white;
+  background: rgba(225, 214, 95);
   right: 0;
   left: 0;
   bottom: 0;
@@ -739,7 +738,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #67b0d1;
+  background: rgba(95, 100, 148);
   top: 0;
   border-radius: 0px;
 }
@@ -762,7 +761,7 @@ section {
 }
 
 .services .title a {
-  color: #111;
+  color: rgba(95, 100, 148);
 }
 
 .services .description {
@@ -835,9 +834,10 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;
+  /* background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center; */
+  background: rgba(95, 100, 148);
+  opacity: .6;
   background-size: cover;
-  padding: 60px 0;
 }
 
 .cta h3 {
@@ -1585,9 +1585,4 @@ section {
 .inner-page p {
   font-size: 10pt;
   font-family: 'Courier New', Courier, monospace;
-}
-
-.quote-text-color {
-  background: rgb(229, 92, 34);
-  background: linear-gradient(297deg, rgba(229, 92, 34, 1) 5%, rgba(255, 188, 51, 1) 15%, rgba(254, 252, 63, 1) 25%, rgba(255, 255, 178, 1) 40%, rgba(254, 252, 63, 1) 55%, rgba(255, 188, 51, 1) 75%, rgba(229, 92, 34, 1) 90%);
 }
