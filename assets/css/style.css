@@ -10,10 +10,11 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Merriweather', serif;
   background-color: #383e42;
   background-image: url("../img/background.jpg");
   color: rgb(216 215 205);
+  font-size: 18pt;
 }
 
 a {
@@ -32,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 #main {
@@ -51,9 +52,9 @@ h6 {
   bottom: 145px;
   z-index: 998;
   background: #495b67;
-  width: 60px;
+  width: 80px;
   height: 60px;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   transition: all 0.4s;
 }
 
@@ -70,9 +71,9 @@ h6 {
   bottom: 80px;
   z-index: 998;
   background: #47E864;
-  width: 60px;
+  width: 80px;
   height: 60px;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   transition: all 0.4s;
 }
 
@@ -89,9 +90,9 @@ h6 {
   bottom: 15px;
   z-index: 998;
   background: #67b0d1;
-  width: 60px;
+  width: 80px;
   height: 60px;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   transition: all 0.4s;
 }
 
@@ -136,7 +137,8 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgb(92, 89, 225);
+  /* background: rgb(92, 89, 225); */
+  background: rgb(139, 147, 179);
   padding: 12px;
 }
 
@@ -1583,5 +1585,5 @@ section {
 
 .inner-page p {
   font-size: 10pt;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Merriweather', serif;
 }
