@@ -44,54 +44,16 @@ h6 {
 # Back to top button
 --------------------------------------------------------------*/
 
-.back-to-top-mail {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: 145px;
-  z-index: 998;
-  background: #495b67;
-  width: 80px;
-  height: 60px;
-  /* border-radius: 50px; */
-  transition: all 0.4s;
-}
-
-.mailActive {
-  visibility: visible;
-  opacity: 1;
-}
-
-.back-to-top-whatsapp {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: 80px;
-  z-index: 998;
-  background: #47E864;
-  width: 80px;
-  height: 60px;
-  /* border-radius: 50px; */
-  transition: all 0.4s;
-}
-
-.whatsappActive {
-  visibility: visible;
-  opacity: 1;
-}
-
 .back-to-top {
   position: fixed;
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  bottom: 15px;
+  bottom: 65px;
   z-index: 998;
   background: #67b0d1;
-  width: 80px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   /* border-radius: 50px; */
   transition: all 0.4s;
 }
@@ -1517,6 +1479,8 @@ section {
   outline: none;
   border: none;
   text-decoration: none;
+  font-size: 14pt;
+  color: rgb(216 215 205);
 }
 
 .containerr {
@@ -1584,6 +1548,7 @@ section {
 }
 
 .inner-page p {
-  font-size: 10pt;
+  font-size: 14pt;
   font-family: 'Merriweather', serif;
+  color: rgb(216 215 205) !important;
 }
