@@ -773,6 +773,7 @@ section {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
+  color: rgba(225, 214, 95);
 }
 
 .services .icon-box:hover .title a,
@@ -1587,6 +1588,7 @@ section {
 }
 
 .inner-page p {
-  font-size: 10pt;
+  font-size: 12pt;
   font-family: 'Merriweather', serif;
+  
 }
